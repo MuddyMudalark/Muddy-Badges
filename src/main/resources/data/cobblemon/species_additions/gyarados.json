@@ -1,0 +1,12 @@
+{
+  "target": "cobblemon:gyarados",
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "muddys-badges:strength_scale",
+        "percentage": 40.0
+      }
+    ]
+  }
+}
