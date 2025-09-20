@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:magikarp",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["strange"],
+      "poser": "cobblemon:magikarp_strange",
+      "model": "cobblemon:magikarp_strange.geo",
+      "texture": "cobblemon:textures/pokemon/0129_magikarp/magikarp_strange.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny", "strange"],
+      "texture": "cobblemon:textures/pokemon/0129_magikarp/magikarp_strange_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "1_magikarp_strange",
+      "pokemon": "magikarp strange",
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "common",
+      "level": "1-99",
+      "weight": 10.0,
+      "condition": {
+        "bait": "muddys-badges:strength_scale"
+      }
+    }
+  ]
+}

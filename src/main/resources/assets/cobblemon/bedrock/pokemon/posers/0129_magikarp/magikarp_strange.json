@@ -1,0 +1,97 @@
+{
+  "portraitScale": 2.0,
+  "portraitTranslation": [-0.09, -0.82, 0],
+  "profileScale": 0.75,
+  "profileTranslation": [-0.05, 0.57, 0],
+  "rootBone": "magikarp_strange",
+  "animations": {
+    "cry": "q.bedrock_stateful('magikarp_strange', 'cry')",
+    "faint": "q.bedrock_primary('magikarp_strange', 'ground_faint', q.curve('one'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isTouchingWater": false,
+      "isBattle": true,
+      "animations": ["q.look('head')", "q.bedrock('magikarp_strange', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('magikarp_strange', 'blink')"]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isTouchingWater": false,
+      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('magikarp_strange', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('magikarp_strange', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "isTouchingWater": false,
+      "animations": ["q.look('head')", "q.bedrock('magikarp_strange', 'ground_walk')"],
+      "quirks": ["q.bedrock_quirk('magikarp_strange', 'blink')"]
+    },
+    "float": {
+      "poseTypes": ["PORTRAIT", "PROFILE", "FLOAT"],
+      "namedAnimations": {
+        "faint": "q.bedrock_primary('magikarp_strange', 'water_faint', q.curve('one'))"
+      },
+      "animations": ["q.look('head')", "q.bedrock('magikarp_strange', 'water_idle')"],
+      "quirks": ["q.bedrock_quirk('magikarp_strange', 'blink')"]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "namedAnimations": {
+        "faint": "q.bedrock_primary('magikarp_strange', 'water_faint', q.curve('one'))"
+      },
+      "animations": ["q.look('head')", "q.bedrock('magikarp_strange', 'water_swim')"],
+      "quirks": ["q.bedrock_quirk('magikarp_strange', 'blink')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "isTouchingWater": false,
+      "animations": ["q.bedrock('magikarp_strange', 'sleep')"],
+      "quirks": ["q.bedrock_quirk('magikarp_strange', 'ground_sleep_quirk')"]
+    },
+    "surface_idle": {
+      "poseTypes": ["STAND"],
+      "isTouchingWater": true,
+      "namedAnimations": {
+        "faint": "q.bedrock_primary('magikarp_strange', 'water_faint', q.curve('one'))"
+      },
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('magikarp_strange', 'surfacewater_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('magikarp_strange', 'blink')",
+        "q.bedrock_quirk('magikarp_strange', 'surfacewater_quirk')"
+      ],
+      "transformedParts": [
+        {
+          "part": "body",
+          "position": [0, 6, 0]
+        }
+      ]
+    },
+    "surface_swim": {
+      "poseTypes": ["WALK"],
+      "isTouchingWater": true,
+      "namedAnimations": {
+        "faint": "q.bedrock_primary('magikarp_strange', 'water_faint', q.curve('one'))"
+      },
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('magikarp_strange', 'surfacewater_swim')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('magikarp_strange', 'blink')",
+        "q.bedrock_quirk('magikarp_strange', 'surfacewater_quirk')"
+      ],
+      "transformedParts": [
+        {
+          "part": "body",
+          "position": [0, 6, 0]
+        }
+      ]
+    }
+  }
+}

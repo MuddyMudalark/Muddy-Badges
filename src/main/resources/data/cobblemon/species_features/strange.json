@@ -1,0 +1,9 @@
+{
+  "keys": [
+    "strange"
+  ],
+  "type": "flag",
+  "isAspect": true,
+  "default": false
+
+}

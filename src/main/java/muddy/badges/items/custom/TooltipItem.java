@@ -5,6 +5,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.text.Text;
+import net.minecraft.util.Formatting;
 
 import java.util.List;
 
@@ -16,7 +17,9 @@ public class TooltipItem extends Item {
     @Override
     public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
         if(stack.isOf(ModItems.STRENGTH_SCALE)) {
-            tooltip.set(0, Text.of("Wait aren't they supposed to be blue?"));
+            tooltip.add(Text.translatable("item.strength_scale.tooltip")
+                    .append(Text.literal("Blue?").formatted(Formatting.BLUE))
+            );
         } else {
             //Some other Tooltip
         }

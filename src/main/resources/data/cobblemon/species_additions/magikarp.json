@@ -1,0 +1,17 @@
+{
+  "target": "cobblemon:magikarp",
+  "keys": [
+    "strange"
+  ],
+  "features": ["strange"],
+  "forms": [
+    {
+      "name": "Strange",
+      "primaryType": "water",
+      "abilities": [
+        "swiftswim"
+      ],
+      "aspects": ["strange"]
+    }
+  ]
+}

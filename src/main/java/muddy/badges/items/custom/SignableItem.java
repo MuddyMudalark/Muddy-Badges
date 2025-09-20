@@ -2,13 +2,10 @@ package muddy.badges.items.custom;
 
 import muddy.badges.utilities.ModComponents;
 import net.minecraft.component.ComponentType;
-import net.minecraft.component.DataComponentTypes;
-import net.minecraft.component.type.NbtComponent;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.tooltip.TooltipType;
-import net.minecraft.nbt.NbtCompound;
 import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
 import net.minecraft.util.Hand;
@@ -54,7 +51,7 @@ public class SignableItem extends Item {
             if (name == null || name.isEmpty()) name = ownerId.toString();
 
             tooltip.add(Text.translatable("item.muddys-badges.tooltip-0")
-                            .append(Text.literal(name).formatted(Formatting.GOLD))
+                            .append(Text.literal(name).formatted(Formatting.BLUE))
             );
         }
         else {
