@@ -5,7 +5,7 @@
   "profileTranslation": [-0.05, 0.57, 0],
   "rootBone": "magikarp_mega",
   "animations": {
-    "cry": "q.bedrock_stateful('magikarp_mega', 'cry')",
+    "cry": "q.bedrock_primary('magikarp_mega', 'cry', q.curve('one'))",
     "faint": "q.bedrock_primary('magikarp_mega', 'ground_faint', q.curve('one'))"
   },
   "poses": {
