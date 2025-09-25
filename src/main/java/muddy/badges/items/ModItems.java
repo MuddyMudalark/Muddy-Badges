@@ -48,6 +48,11 @@ public class ModItems {
             "strength_scale"
     );
 
+    public static final Item MAGIKANITE = register(
+            new Item(new Item.Settings()),
+            "magikanite"
+    );
+
     public static void initialize() {
 
     }

@@ -1,9 +1,6 @@
 {
   "target": "cobblemon:magikarp",
-  "keys": [
-    "strange"
-  ],
-  "features": ["strange"],
+  "features": ["strange", "custom_mega"],
   "forms": [
     {
       "name": "Strange",
@@ -12,6 +9,38 @@
         "swiftswim"
       ],
       "aspects": ["strange"]
+    },
+    {
+      "name": "Mega",
+      "primaryType": "water",
+      "secondaryType": "ground",
+      "abilities": [
+        "stormdrain",
+        "h:battlebond"
+      ],
+      "baseStats": {
+        "hp": 90,
+        "attack": 160,
+        "defence": 109,
+        "special_attack": 60,
+        "special_defence": 130,
+        "speed": 91
+      },
+      "moves": [
+        "1:splash",
+        "15:tackle",
+        "25:flail",
+        "50:bounce",
+        "75:aquajet",
+        "90:earthquake"
+      ],
+      "pokedex": [
+        "cobblemon.species.magikarpmega.desc1",
+        "cobblemon.species.magikarpmega.desc2"
+      ],
+      "height": 30,
+      "weight": 236,
+      "aspects": ["custom_mega"]
     }
   ]
 }

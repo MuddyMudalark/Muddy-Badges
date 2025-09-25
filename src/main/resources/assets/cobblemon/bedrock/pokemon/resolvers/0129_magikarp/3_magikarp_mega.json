@@ -1,11 +1,11 @@
 {
   "species": "cobblemon:magikarp",
-  "order": 2,
+  "order": 1,
   "variations": [
     {
-      "aspects": ["mega"],
-      "poser": "cobblemon:magikarp_strange",
-      "model": "cobblemon:magikarpmega.geo",
+      "aspects": ["custom_mega"],
+      "poser": "cobblemon:magikarp_mega",
+      "model": "cobblemon:magikarp_mega.geo",
       "texture": "cobblemon:textures/pokemon/0129_magikarp/megamagikarp.png",
       "layers": []
     }
