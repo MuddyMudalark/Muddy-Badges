@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.magikarp.water_idle": {
+		"animation.magikarp_mega.water_idle": {
 			"loop": true,
 			"animation_length": 2.8571,
 			"bones": {
@@ -240,7 +240,7 @@
 				}
 			}
 		},
-		"animation.magikarp.ground_idle": {
+		"animation.magikarp_mega.ground_idle": {
 			"loop": true,
 			"animation_length": 0.5,
 			"bones": {
@@ -622,7 +622,7 @@
 				}
 			}
 		},
-		"animation.magikarp.ground_walk": {
+		"animation.magikarp_mega.ground_walk": {
 			"loop": true,
 			"animation_length": 1,
 			"bones": {
@@ -1227,7 +1227,7 @@
 				}
 			}
 		},
-		"animation.magikarp.sleep": {
+		"animation.magikarp_mega.sleep": {
 			"loop": true,
 			"animation_length": 4,
 			"bones": {
@@ -1391,7 +1391,7 @@
 				}
 			}
 		},
-		"animation.magikarp.water_swim": {
+		"animation.magikarp_mega.water_swim": {
 			"loop": true,
 			"animation_length": 4,
 			"bones": {
@@ -1709,7 +1709,7 @@
 				}
 			}
 		},
-		"animation.magikarp.water_swimfast": {
+		"animation.magikarp_mega.water_swimfast": {
 			"loop": true,
 			"animation_length": 2,
 			"bones": {
@@ -2027,7 +2027,7 @@
 				}
 			}
 		},
-		"animation.magikarp.water_sleep": {
+		"animation.magikarp_mega.water_sleep": {
 			"loop": true,
 			"animation_length": 4,
 			"bones": {
@@ -2284,7 +2284,7 @@
 				}
 			}
 		},
-		"animation.magikarp.ground_faint": {
+		"animation.magikarp_mega.ground_faint": {
 			"animation_length": 3,
 			"bones": {
 				"torso": {
@@ -2956,7 +2956,7 @@
 				}
 			}
 		},
-		"animation.magikarp.water_faint": {
+		"animation.magikarp_mega.water_faint": {
 			"animation_length": 1.5,
 			"bones": {
 				"torso": {
@@ -3277,7 +3277,7 @@
 				}
 			}
 		},
-		"animation.magikarp.cry": {
+		"animation.magikarp_mega.cry": {
 			"animation_length": 3,
 			"bones": {
 				"body": {
@@ -3643,7 +3643,7 @@
 				}
 			}
 		},
-		"animation.magikarp.blink": {
+		"animation.magikarp_mega.blink": {
 			"animation_length": 0.1667,
 			"bones": {
 				"eyes": {
